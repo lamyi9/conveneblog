@@ -1,0 +1,121 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+<!doctype html>
+<html lang="en">
+	<meta name="viewport" content="width=device-width" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body class="bg-sky-100">
+		<Header title={SITE_TITLE} />
+		<main class=" max-w-5xl mx-auto font-qomo">
+			<div class="text-center">
+				<div class="p-10 rounded-xl  my-10">
+					<a href="https://d2kmkdcb444wm5.cloudfront.net/app/#/createroom" class=" hover:text-sky-400 text-sky-600 font-bold py-2 px-4 rounded inline-flex items-center">
+						<svg class="fill-current w-20 h-20 mr-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 				viewBox="0 0 425.5 442.4" style="enable-background:new 0 0 425.5 442.4;" xml:space="preserve">
+					<g>
+						<path d="M345.3,236.3c-24.5-35.4-68.8-46.7-107.3-26.4c-8.8,4.7-15.7,6.1-23.1-1.2c37.5-44.5,39.7-86.3,6.1-118.2
+							c-29.4-27.9-74.5-26.6-102.6,3C87.5,126,91,169.7,128.6,208.8c-34.3,17.4-55.1,44.7-61.3,82.7c-0.8,5.1-7.5,14.8,5.7,16
+							c9.2,0.8,13.4-0.6,15.2-12.3c8.4-53.9,58.6-85.7,107.8-70c10.5,3.3,14.7,6.2,7.5,18.9c-21.7,38-11.5,84.1,22.4,110.5
+							c33.1,25.8,79,22.9,109-6.8C364.8,317.8,369.2,271,345.3,236.3z M171.6,199.6c-28.4,0.2-52.6-23.9-53-53
+							c-0.5-29.9,23.8-54.9,53.1-54.7c28.5,0.3,52.2,24.7,52.1,53.9C223.8,175,200.1,199.4,171.6,199.6z M276,350.4
+							c-35-0.2-63.1-29.7-62.7-65.5c0.4-35.8,29.4-64.4,64.5-63.7c34.2,0.7,61.8,29.5,61.8,64.6C339.6,321.6,311,350.6,276,350.4z"/>
+						<path d="M281,336h-9.1c-3.3,0-6-2.7-6-6v-88.3c0-3.3,2.7-6,6-6h9.1c3.3,0,6,2.7,6,6V330C287,333.3,284.3,336,281,336z"/>
+						<path d="M227.4,290.6V281c0-3.3,2.7-6,6-6h86.1c3.3,0,6,2.7,6,6v9.6c0,3.3-2.7,6-6,6h-86.1C230.1,296.6,227.4,293.9,227.4,290.6z"
+							/>
+					</g>
+					</svg>
+					<h2 class="sm:text-2xl md:text-4xl text-3xl">ཁ་བརྡ་ཁང་གསར་པ་འདི་ནང་བཟོས།</h2>
+					</a>
+				</div>
+				<div class="p-10 rounded-xl my-10">
+					<a href="https://d2kmkdcb444wm5.cloudfront.net/app/#/room/%23dumra%3Aneo.keanu.im" class=" hover:text-sky-400 text-sky-600 font-bold py-2 px-4 rounded inline-flex items-center">
+						<svg class="fill-current w-20 h-20 mr-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 						viewBox="0 0 425.5 442.4" style="enable-background:new 0 0 425.5 442.4;" xml:space="preserve">
+						<g>
+						<path d="M357.7,225c-24.5-35.4-68.8-46.7-107.3-26.4c-8.8,4.7-15.7,6.1-23.1-1.2c37.5-44.6,39.7-86.4,6.1-118.2
+							c-29.4-27.9-74.5-26.6-102.6,3c-30.8,32.5-27.4,76.2,10.2,115.3c-34.3,17.4-55.1,44.7-61.3,82.7c-0.8,5.1-7.5,14.8,5.7,16
+							c9.2,0.8,13.4-0.6,15.2-12.3c8.4-53.9,58.6-85.7,107.8-70c10.5,3.3,14.7,6.2,7.5,18.9c-21.7,38-11.5,84.1,22.4,110.5
+							c33.1,25.8,79,22.9,109-6.8C377.3,306.5,381.7,259.7,357.7,225z M184,188.3c-28.4,0.2-52.6-23.9-53-53
+							c-0.5-29.9,23.8-54.9,53.1-54.7c28.5,0.3,52.2,24.7,52.1,53.9C236.2,163.7,212.5,188.1,184,188.3z M288.4,339.1
+							c-35-0.2-63.1-29.7-62.7-65.5c0.4-35.8,29.4-64.4,64.5-63.7c34.2,0.7,61.8,29.5,61.8,64.6C352,310.3,323.4,339.3,288.4,339.1z"/>
+						<g>
+						<path d="M322.1,285h-78.3c-5.8,0-10.5-4.7-10.5-10.5S238,264,243.8,264h78.3c5.8,0,10.5,4.7,10.5,10.5S327.9,285,322.1,285z"/>
+						</g>
+						<g>
+							<path d="M288.9,324.6c-2.9,0-5.7-1.2-7.8-3.5c-3.9-4.3-3.6-10.9,0.7-14.8l34.8-31.5L282.2,246c-4.5-3.7-5-10.3-1.3-14.8
+								c3.7-4.5,10.3-5,14.8-1.3l53.1,44.3l-52.8,47.7C293.9,323.7,291.4,324.6,288.9,324.6z"/>
+						</g>
+						</g>
+						</svg>
+
+					<h3 class="sm:text-2xl md:text-4xl text-3xl">སྔར་ཡོད་ཀྱི་ཁ་བརྡ་ཁང་དུ་ཞུགས།</h3>
+					</a>
+				</div>
+				
+			</div>
+			<div class="mx-auto place-content-center">
+				<center>
+					<video width="320" height="240" controls class="place-content-center">
+						<source src="https://res.cloudinary.com/daarpik83/video/upload/v1694772116/signal-2023-09-15-145507_002.mp4" type="video/mp4">
+						<source src="movie.ogg" type="video/ogg">
+						Your browser does not support the video tag.
+					  </video>
+				</center>
+			</div>
+			<div class="my-20">
+				<h2 class="text-center text-3xl font-qomo  text-sky-600 font-bold" >ཨན་ཌོ་ཁ་པར་ཆེད་ལིད་ནས་ཕབ་ལེན་གནང་རིགས་</h2>
+				<div class="mx-auto w-1/2  grid md:grid-cols-2 grid-cols-1 gap-4 place-content-center justify-between place-items-center my-10">
+					<div class="border p-3 rounded-lg bg-slate-100">
+						<img   class="m-10" src="../firefox.png"
+						width="100px"
+						height="100px"
+						decoding="async"
+						loading="lazy"
+						alt="Firefox"
+						>
+						<p class="py-2"><a class=" hover:text-sky-400 text-sky-600 font-bold py-2 px-4 rounded inline-flex items-center" href="https://s3.amazonaws.com/loklad.com/assets/files/apk/fenix-110.0.1-arm64-v8a.apk">
+							<svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+  							<span>ཨན་ཌོ་ནང་དུ་ཕབ་ལེན།</span>
+							</a>
+						</p>
+						<p class="py-2">
+							<a class=" hover:text-sky-400 text-sky-600 font-bold py-2 px-4 rounded inline-flex items-center" href="https://s3.amazonaws.com/loklad.com/assets/files/win/FirefoxSetup115.0.3.exe">
+								<svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+								<span>སྒེའུ་ཁུང་ནང་དུ་ཕབ་ལེན།</span>
+							</a>
+						</p>
+					</div>
+
+					<div class="border p-3 rounded-lg bg-slate-100">
+							<img  class="m-10" src="../brave.png" 
+						width="100px"
+						height="100px"
+						decoding="async"
+						loading="lazy"
+						alt="brave logo"
+						>
+						<p class="py-2"><a class=" hover:text-sky-400 text-sky-600 font-bold py-2 px-4 rounded inline-flex items-center" href="https://s3.amazonaws.com/loklad.com/assets/files/apk/fenix-110.0.1-arm64-v8a.apk">
+							<svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+  							<span>ཨན་ཌོ་ནང་དུ་ཕབ་ལེན།</span>
+							</a>
+						</p>
+						<p class="py-2" >
+							<a class=" hover:text-sky-400 text-sky-600 font-bold py-2 px-4 rounded inline-flex items-center" href="https://s3.amazonaws.com/loklad.com/assets/files/win/FirefoxSetup115.0.3.exe">
+								<svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+								<span>སྒེའུ་ཁུང་ནང་དུ་ཕབ་ལེན།</span>
+							</a>
+						</p>
+					
+				</div>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>
