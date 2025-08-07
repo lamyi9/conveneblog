@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Free Browser",
+    "img": "../thumbnail-freebrowser.png",
+    "alt": "Free Browser",
+    "downloadUrl": "https://loklad.s3.us-east-1.amazonaws.com/apk/freebrowser-6.0.9.apk"
+  },
+  {
+    "name": "Brave",
+    "img": "../brave.png",
+    "alt": "brave logo",
+    "downloadUrl": "https://loklad.s3.us-east-1.amazonaws.com/apk/Bravearm64Universal.apk"
+  }
+]
